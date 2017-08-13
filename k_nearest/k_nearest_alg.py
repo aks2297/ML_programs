@@ -10,7 +10,7 @@ style.use('fivethirtyeight')
 
 def k_nearest_neighbors(data, predict, k=3):
     if len(data) >= k:
-        warnings.warn('K is set to a value less than total voting groups!')
+        warnings.warn('WHOOPS! not possible ')
     distances = []
     for group in data:
         for features in data[group]:
